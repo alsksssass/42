@@ -1,0 +1,16 @@
+Mmain_bonus	main_bonus.c	/^int	main(int argc, char **argv, char *envp[])$/
+check_here_doc	parsing_bonus.c	/^int	check_here_doc(char **argv)$/
+child_process	main_bonus.c	/^void	child_process(t_main *main)$/
+cmd_checker	cmd_checker_bonus.c	/^t_cmd	cmd_checker(t_main *main, int num)$/
+error_cmd	cmd_checker_bonus.c	/^void	error_cmd(t_main *main, int error)$/
+find_cmd	cmd_checker_bonus.c	/^char	*find_cmd(t_main *main, char *cmd)$/
+free_malloc	cmd_checker_bonus.c	/^void	free_malloc(char **str)$/
+get_path	parsing_bonus.c	/^char	**get_path(t_main *main)$/
+here_doc_part	main_bonus.c	/^void	here_doc_part(t_main *main)$/
+make_pipe	main_bonus.c	/^void	make_pipe(t_main *main, int c_count)$/
+make_temp	main_bonus.c	/^void	make_temp(t_main *main)$/
+nomal_fd	set_fd_bonus.c	/^int	nomal_fd(t_main *main, int *fd)$/
+open_fd	set_fd_bonus.c	/^int	open_fd(t_main *main, int *fd)$/
+parsing	parsing_bonus.c	/^int	parsing(t_main *main, int argc, char **argv, c/
+set_fd	set_fd_bonus.c	/^int	set_fd(t_main *main, int i, int *fd)$/
+write_fd	set_fd_bonus.c	/^int	write_fd(t_main *main)$/

@@ -1,0 +1,33 @@
+Mfdf	fdf.c	/^int main (int argc, char **argv)$/
+Mfdf2	fdf2.c	/^int main ()$/
+Mfdfswap	fdfswap.c	/^int main ()$/
+Morigin	origin.c	/^int main ()$/
+check_map	fdfswap.c	/^void check_map (t_data *img, char *map)$/
+check_map_data	fdf.c	/^int check_map_data(t_data *img, char *map, int fd)/
+check_name	fdf.c	/^int check_name(char *map)$/
+count_data	fdf.c	/^int count_data(char **sp_data)$/
+deg_set	fdf.c	/^double deg_set (int deg)$/
+down_over_line_maker	fdf2.c	/^void down_over_line_maker (t_data *img, int s_x, i/
+down_under_line_maker	fdf2.c	/^void down_under_line_maker (t_data *img, int s_x, /
+error_message	fdf.c	/^int error_message (const char *message)$/
+get_t	fdf.c	/^int	get_t(int trgb)$/
+isometric	fdf.c	/^point_x_y isometric(double x, double y, double ang/
+line_maker	fdf2.c	/^void line_maker (t_data *img, int s_x, int s_y, in/
+load_map	fdf.c	/^int load_map (t_data *img, char *map)$/
+make_h	fdf.c	/^void make_h (t_data *img, int x, int y)$/
+make_malloc	fdf.c	/^int make_malloc(t_data *img)$/
+make_pole	fdf.c	/^void make_pole (t_data *img, int x, int y)$/
+map_maker	fdf.c	/^void map_maker (t_data *img)$/
+my_mlx_pixel_put	fdf.c	/^void  my_mlx_pixel_put(t_data *data, int x, int y,/
+plot_line	fdf.c	/^void plot_line(t_data *img, int x0, int y0, int x1/
+plot_line_high	fdf.c	/^void plot_line_high(t_data *img, int x0, int y0, i/
+plot_line_low	fdf.c	/^void plot_line_low(t_data *img, int x0, int y0, in/
+pole_maker	fdf2.c	/^void pole_maker (t_data *img, int s_x, int s_y, in/
+save_map_data	fdf.c	/^int save_map_data(t_data *img, char *map)$/
+split_counter	fdf.c	/^int split_counter(char *line)$/
+split_saver	fdf.c	/^int split_saver(t_data *img, char *line, int y)$/
+t_data	fdf2.c	/^}	t_data;$/
+up_over_line_maker	fdf2.c	/^void up_over_line_maker (t_data *img, int s_x, int/
+up_under_line_maker	fdf2.c	/^void up_under_line_maker (t_data *img, int s_x, in/
+x_point	fdf.c	/^int x_point(int x,int y)$/
+y_point	fdf.c	/^int y_point(int x,int y)$/

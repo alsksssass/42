@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "custom",
+      "name": "Custom launch",
+      "targetCreateCommands": [
+        "target create ${workspaceFolder}/minishell",
+      ],
+      "processCreateCommands": [
+        "settings set target.run-args value1 value2 value3",
+        "process launch"
+      ]
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${workspaceFolder}/minishell",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sabyun/42",
+      "program": "/Users/sabyun/42/build/Debug/outDebug"
+    }
+  ]
+}

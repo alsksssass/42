@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+argv_sort	default_set_2.c	/^char	**argv_sort(char **argv, int argc)$/;"	f
+check_big	stack_sort.c	/^static int	check_big(t_pivot pivot, t_main *main, int *ra_count, int *rb_count)$/;"	f	file:
+check_big_a	stack_sort_2.c	/^static int	check_big_a(t_pivot pivot, t_main *main, int *ra_count,$/;"	f	file:
+check_num	default_set_1.c	/^static int	check_num(char *str)$/;"	f	file:
+commander	main.c	/^void	commander(t_main *main, int command)$/;"	f
+default_set	default_set_1.c	/^int	default_set(t_main *main, int argc, char **argv)$/;"	f
+equal_num	default_set_2.c	/^static int	equal_num(int *arr, int max)$/;"	f	file:
+error_message	main.c	/^int	error_message(void)$/;"	f
+find_index	default_set_2.c	/^int	find_index(int num, int *arr, int size)$/;"	f
+free_malloc	free.c	/^int	free_malloc(t_main *main, int num)$/;"	f
+free_save	free.c	/^static void	free_save(t_main *main)$/;"	f	file:
+frist_a_to_b	stack_sort.c	/^static void	frist_a_to_b(t_main *main, t_pivot pivot)$/;"	f	file:
+indexing	default_set_1.c	/^static int	indexing(t_main *main)$/;"	f	file:
+is_num	default_set_1.c	/^static int	is_num(char *str)$/;"	f	file:
+less_then_2	tiny_b_to_a.c	/^void	less_then_2(t_main *main, int max, int min)$/;"	f
+main	main.c	/^int	main(int argc, char **argv)$/;"	f
+make_new	stack_maker.c	/^static t_stack	*make_new(t_main *main, char *num)$/;"	f	file:
+malloc_index	default_set_1.c	/^static int	malloc_index(t_main *main)$/;"	f	file:
+p_ab	swap.c	/^void	p_ab(t_main *main, int command)$/;"	f
+pivot_set	stack_sort_2.c	/^t_pivot	pivot_set(int min, int max)$/;"	f
+print_command	main.c	/^static void	print_command(int command)$/;"	f	file:
+push_a_to_b	stack_sort.c	/^void	push_a_to_b(t_main *main, int min, int max)$/;"	f
+push_b_to_a	stack_sort_2.c	/^void	push_b_to_a(t_main *main, int min, int max)$/;"	f
+q_parting	quick_sort.c	/^static int	q_parting(int *arr, int min, int max)$/;"	f	file:
+quick_sort	quick_sort.c	/^void	quick_sort(int *arr, int min, int max)$/;"	f
+r_ab	swap.c	/^void	r_ab(t_main *main, int command)$/;"	f
+rr_ab	swap.c	/^void	rr_ab(t_main *main, int command)$/;"	f
+rrr_roller	stack_sort.c	/^void	rrr_roller(t_main *main, int ra_count, int rb_count)$/;"	f
+s_ab	swap.c	/^void	s_ab(t_main *main, int command)$/;"	f
+small_maker	small_swap.c	/^t_small	small_maker(t_main *main)$/;"	f
+small_swap	swap_3.c	/^void	small_swap(t_main *main)$/;"	f
+sorted	default_set_2.c	/^int	sorted(t_main *main)$/;"	f
+stack_in	stack_maker.c	/^void	stack_in(t_stack **stack, t_stack *new, int *size)$/;"	f
+stack_maker	stack_maker.c	/^void	stack_maker(t_main *main, char *argv)$/;"	f
+stack_pop	stack_maker.c	/^t_stack	*stack_pop(t_stack **stack, int *size)$/;"	f
+swap	quick_sort.c	/^static void	swap(int *arr, int i, int j)$/;"	f	file:
+swap_1_4	small_swap.c	/^void	swap_1_4(t_main *main)$/;"	f
+swap_2_4	small_swap_2.c	/^void	swap_2_4(t_main *main, t_small small)$/;"	f
+swap_3	swap_3.c	/^static void	swap_3(t_main *main)$/;"	f	file:
+swap_3_1	swap_3.c	/^static void	swap_3_1(t_main *main, int sp)$/;"	f	file:
+swap_4_1	small_swap.c	/^static void	swap_4_1(t_main *main, int sp, int num)$/;"	f	file:
+swap_4_2	small_swap.c	/^static void	swap_4_2(t_main *main, int sp, int num)$/;"	f	file:
+swap_4_3	small_swap_2.c	/^static void	swap_4_3(t_main *main, int sp, int num)$/;"	f	file:
+swap_4_4	small_swap_2.c	/^static void	swap_4_4(t_main *main, int sp, int num)$/;"	f	file:
+tiny_bot	tiny_a_to_b.c	/^static void	tiny_bot(t_main *main, int sp)$/;"	f	file:
+tiny_bot	tiny_b_to_a.c	/^static void	tiny_bot(t_main *main, int sp)$/;"	f	file:
+tiny_mid	tiny_a_to_b.c	/^static void	tiny_mid(t_main *main, int sp)$/;"	f	file:
+tiny_mid	tiny_b_to_a.c	/^static void	tiny_mid(t_main *main, int sp)$/;"	f	file:
+tiny_swap	tiny_a_to_b.c	/^int	tiny_swap(t_main *main, int min, int max, t_pivot pivot)$/;"	f
+tiny_swap_to_a	tiny_b_to_a.c	/^int	tiny_swap_to_a(t_main *main, int min, int max, t_pivot pivot)$/;"	f
+tiny_top	tiny_a_to_b.c	/^static void	tiny_top(t_main *main, int sp)$/;"	f	file:
+tiny_top	tiny_b_to_a.c	/^static void	tiny_top(t_main *main, int sp)$/;"	f	file:

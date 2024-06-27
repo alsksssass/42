@@ -1,0 +1,40 @@
+Mmain	main.c	/^int	main(int argc, char **argv)$/
+add_food	forking_2.c	/^void	add_food(t_philo *philo)$/
+c_time	sleep_life.c	/^long long	c_time(void)$/
+check_fork	forking_1.c	/^int	check_fork(t_philo *philo)$/
+check_live	sleep_life.c	/^int	check_live(t_philo *philo)$/
+check_note	sleep_life.c	/^int	check_note(t_philo *philo)$/
+check_num	forking_2.c	/^int	check_num(t_main *main)$/
+checking	forking_1.c	/^int	checking(t_philo *philo, int num)$/
+cycle	make_philo.c	/^void	*cycle(void *data)$/
+eating	print.c	/^int	eating(t_philo *philo)$/
+even	make_philo.c	/^static void	even(t_philo *philo)$/
+find_fork	forking_2.c	/^t_fork	find_fork(t_philo *philo)$/
+ft_atoi	atoi.c	/^long long	ft_atoi(const char *str)$/
+ft_bzero	bzero.c	/^void	ft_bzero(void *s, size_t n)$/
+ft_isdigit	print.c	/^int	ft_isdigit(int str)$/
+ft_itoa	itoa.c	/^char	*ft_itoa(int n)$/
+ft_memcpy	memcpy.c	/^void	*ft_memcpy(void *s1, const void *s2, size_t n/
+ft_strdup	strdup.c	/^char	*ft_strdup(const char *s1)$/
+ft_strjoin	strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/
+ft_strlcpy	strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, siz/
+ft_strlen	strlen.c	/^size_t	ft_strlen(const char *str)$/
+is_num	print.c	/^int	is_num(char **str)$/
+len	itoa.c	/^static int	len(int n)$/
+make_base	main.c	/^void	make_base(t_main *main, int argc, char **argv/
+make_thread	main.c	/^int	make_thread(t_main *main)$/
+messages	print.c	/^static void	messages(t_philo *philo, int message)$/
+now_time	make_philo.c	/^long long	now_time(t_philo *philo)$/
+numchar	itoa.c	/^static char	*numchar(int size, int n, int umm)$/
+odd	make_philo.c	/^static void	odd(t_philo *philo)$/
+philo_free	forking_2.c	/^void	philo_free(t_main *main)$/
+philo_sleep	sleep_life.c	/^int	philo_sleep(t_philo *philo)$/
+print_message	print.c	/^int	print_message(t_philo *philo, int message)$/
+pthread_init	main.c	/^void	pthread_init(pthread_t *philo, int i)$/
+replace_fork	forking_1.c	/^static void	replace_fork(t_philo *philo, t_fork pi/
+report_eat	sleep_life.c	/^void	report_eat(t_philo *philo)$/
+return_fork	forking_1.c	/^static void	return_fork(t_philo *philo, int num)$/
+table_set	make_philo.c	/^void	table_set(t_main *main)$/
+useable_fork	forking_2.c	/^int	useable_fork(t_philo *philo, int num)$/
+wait_thread	main.c	/^void	wait_thread(t_main *main)$/
+while_forking	forking_1.c	/^static int	while_forking(t_philo *philo, t_fork pi/

@@ -1,0 +1,144 @@
+Mmain	main.c	/^int	main(int argc, char **argv, char **envp)$/
+add_envpnode	make_env.c	/^void	add_envpnode(t_envp **envp, t_envp *new)$/
+add_nl	split_cmd.c	/^char	*add_nl(char *str)$/
+add_node	make_node.c	/^void	add_node(t_main *main, t_cmd *new)$/
+after_make_str	env_get.c	/^char	*after_make_str(t_main *main, char *str)$/
+ascii_env	get_env.c	/^char	*ascii_env(char *s)$/
+cd	builtin.c	/^int	cd(t_main *main, char *cmd)$/
+check	ft_splitset.c	/^static int	check(char *str, char *charset)$/
+check_already_add	make_env.c	/^int	check_already_add(t_main *main, char *key, cha/
+check_builtin	builtin.c	/^int	check_builtin(t_cmd *list)$/
+check_cmd	do_cmd_set.c	/^int	check_cmd(t_main *main, t_cmd *cmd)$/
+check_cmd_path	env_path.c	/^int	check_cmd_path(t_envp *envp, t_cmd *cmd)$/
+check_envsyn_error	make_env.c	/^int	check_envsyn_error(char *key, char *value)$/
+check_here_doc	here_doc_single_re.c	/^int	check_here_doc(t_main *main, t_cmd *cmd, int n/
+check_key_able	env.c	/^int	check_key_able(char *str)$/
+check_mark	str_int.c	/^int	check_mark(char input)$/
+check_num	standard_fuc2.c	/^int	check_num(char *num)$/
+check_syntax	syntax_check.c	/^int	check_syntax(char **cmd)$/
+check_while	env.c	/^int	check_while(t_envp *list, char *key, char *val/
+close_multiple_fd	do_cmd_set.c	/^void	close_multiple_fd(t_main *main, t_cmd *cmd)$/
+cmd_check	triple_strcmp.c	/^int	cmd_check(char *input)$/
+cmd_exit_process	cmd_process.c	/^void	cmd_exit_process(t_main *main, pid_t last_pid/
+cmd_free	standard_fuc2.c	/^void	cmd_free(t_main *main)$/
+cmd_len	split_cmd.c	/^int	cmd_len(t_main *main)$/
+cmd_making	to_char.c	/^void	cmd_making(t_main *main, t_cmd *send, int now/
+cmd_path	env_path.c	/^int	cmd_path(t_main *main, t_cmd *cmd)$/
+cmd_sig_handler	do_cmd_set.c	/^void	cmd_sig_handler(int signum)$/
+cmdlist_num	cmd_process.c	/^int	cmdlist_num(t_cmd *lst)$/
+continuous_check_mark	str_int.c	/^int	continuous_check_mark(t_main *main, t_splitcmd/
+daller_env	get_env.c	/^char	*daller_env(int c)$/
+default_set_cmd	to_char.c	/^void	default_set_cmd(t_cmd *cmd)$/
+defult_envp	env.c	/^void	defult_envp(t_main *main)$/
+delete_env	env.c	/^int	delete_env(t_main *main, char *key)$/
+do_builtin	builtin.c	/^int	do_builtin(t_cmd *list, t_main *main)$/
+do_cmd	do_cmd.c	/^int	do_cmd(t_main *main)$/
+do_echo	is_open.c	/^void	do_echo(char **cmd)$/
+do_env_error	error_fuc.c	/^int	do_env_error(t_main *main, char *key)$/
+do_exit_process	cmd_process.c	/^void	do_exit_process(t_main *main)$/
+do_fd	inoutfile.c	/^int	do_fd(t_cmd *cmd, int option)$/
+do_mfd	inoutfile.c	/^int	do_mfd(t_main *main, t_cmd *cmd, int option)$/
+do_minishell	main.c	/^void	do_minishell(t_main *main)$/
+do_multiple_cmd	do_cmd.c	/^void	do_multiple_cmd(t_main *main, t_cmd *cmd)$/
+duble_len	standard_fuc.c	/^int	duble_len(char **str)$/
+echo	is_open.c	/^int	echo(char **cmd)$/
+end_cmd	for_env_func.c	/^void	end_cmd(t_main *main)$/
+enter_null	for_env_func.c	/^void	enter_null(t_main *main)$/
+envplist_num	env_path.c	/^int	envplist_num(t_envp *lst)$/
+eof_doller	triple_strcmp.c	/^void	eof_doller(char *str)$/
+eof_doller_recover	eof_doller_recover.c	/^void	eof_doller_recover(char *str)$/
+error_check_syn	error_fuc.c	/^int	error_check_syn(int syn, int pre)$/
+error_cmd	triple_strcmp.c	/^int	error_cmd(char *str)$/
+error_code_here_doc	find_doller.c	/^int	error_code_here_doc(t_cmd *cmd, int code)$/
+error_message	qq_note.c	/^int	error_message(char *str, int error_num)$/
+error_message_syn	error_fuc.c	/^int	error_message_syn(int pre, int i)$/
+error_message_token	error_fuc.c	/^int	error_message_token(char **cmd, int i)$/
+exit_num	standard_fuc2.c	/^int	exit_num(t_main *main, char **cmd)$/
+export_built	builtin.c	/^int	export_built(t_main *main, char **cmd)$/
+find_doller	find_doller.c	/^void	find_doller(char *str)$/
+free_all	pwd.c	/^void	free_all(t_pwd *all)$/
+free_cmd	main.c	/^void	free_cmd(t_main *main, int end)$/
+free_cmdlist	standard_fuc.c	/^void	free_cmdlist(char **cmd)$/
+free_name	eof_doller_recover.c	/^void	free_name(char *name, char *name2)$/
+free_node_fail	to_char.c	/^void	free_node_fail(t_cmd *cmd)$/
+free_ret	pwd.c	/^int	free_ret(t_main *main, char *str, int num)$/
+free_split	standard_fuc.c	/^int	free_split(char **tmp)$/
+free_strlist	standard_fuc2.c	/^void	free_strlist(char **cmd)$/
+ft_split_set	ft_splitset.c	/^char	**ft_split_set(char *str, char *charset)$/
+ft_stcmp	ft_splitset.c	/^static int	ft_stcmp(char *s1, char *s2)$/
+ft_strcmp	ft_stcmp.c	/^int	ft_strcmp(char *s1, char *s2)$/
+get_env	get_env.c	/^char	*get_env(t_envp *env, char *str)$/
+get_envplen	standard_fuc2.c	/^int	get_envplen(char **arr)$/
+get_g_exit_code	get_env.c	/^char	*get_g_exit_code(t_main *main, char *temp2)$/
+get_next	make_node.c	/^int	get_next(t_main *main, int num)$/
+get_pwd	is_open.c	/^int	get_pwd(t_main *main, char *cmd)$/
+go_home	remove_file.c	/^int	go_home(t_main *main)$/
+here_doc	ft_stcmp.c	/^void	here_doc(t_check *cmd, char mark)$/
+here_doc_re	here_doc_single_re.c	/^int	here_doc_re(t_main *main, t_cmd *cmd, char *na/
+here_doc_sigint_handler	find_doller.c	/^void	here_doc_sigint_handler(int signum)$/
+here_doc_sigquit_handler	find_doller.c	/^void	here_doc_sigquit_handler(int signum)$/
+here_doc_single_re	here_doc_single_re.c	/^int	here_doc_single_re(t_main *main, t_cmd *cmd, c/
+in_mark	ft_stcmp.c	/^void	in_mark(t_check *cmd)$/
+infile_do	inoutfile.c	/^int	infile_do(t_cmd *cmd)$/
+infile_make	eof_doller_recover.c	/^int	infile_make(t_main *main, t_cmd *cmd, char *st/
+is_alnum_str	standard_fuc.c	/^int	is_alnum_str(char *str)$/
+is_num	standard_fuc.c	/^int	is_num(char *str)$/
+is_opn	is_open.c	/^int	is_opn(char *str)$/
+join_env_end	get_env.c	/^char	*join_env_end(char *temp, char *env, char *te/
+join_path	env_path.c	/^char	*join_path(char *path, char *cmd)$/
+join_srt	inoutfile.c	/^char	*join_srt(char *s1, char *s2)$/
+make_cmd	make_node.c	/^int	make_cmd(t_main *main)$/
+make_envp	make_env.c	/^int	make_envp(t_main *main, char *arr)$/
+make_envp_arr	env_path.c	/^char	**make_envp_arr(t_envp *lst)$/
+make_envpnode	make_env.c	/^t_envp	*make_envpnode(char *key, char *value)$/
+make_name	here_doc_single_re.c	/^char	*make_name(t_main *main, int now)$/
+make_node	make_node.c	/^t_cmd	*make_node(t_main *main, int now, int add)$/
+make_split_cmd	str_int.c	/^int	make_split_cmd(t_main *main, t_splitcmd *s_cmd/
+make_str	env_get.c	/^char	*make_str(char *str, int set)$/
+make_temp	find_doller.c	/^void	make_temp(t_main *main, t_cmd *cmd, char *str/
+make_temp_file	split_cmd.c	/^char	*make_temp_file(int *fd)$/
+multiple_cmd	do_cmd.c	/^int	multiple_cmd(t_main *main, t_cmd *cmd)$/
+out_mark	ft_stcmp.c	/^void	out_mark(t_check *cmd)$/
+outfile_do	inoutfile.c	/^int	outfile_do(t_cmd *cmd)$/
+outfile_make	eof_doller_recover.c	/^void	outfile_make(t_cmd *cmd, char *name, int appe/
+print_envp	env.c	/^void	print_envp(t_main *main, int env)$/
+print_error	cmd_process.c	/^void	print_error(char *cmd, char *message)$/
+print_two_error	error_fuc.c	/^void	print_two_error(char *cmd1, char *cmd2, char /
+put_in	ft_splitset.c	/^static void	put_in(char **send, char *str, int num/
+pwd	is_open.c	/^int	pwd(t_main *main)$/
+q_mark	qq_note.c	/^int	q_mark(t_check *cmd, char *mark)$/
+q_note	qq_note.c	/^void	q_note(t_check *cmd)$/
+q_replace	for_env_func.c	/^char	*q_replace(char *s)$/
+q_swap	qq_note.c	/^int	q_swap(t_check *cmd, char *mark, int i)$/
+qq_note	qq_note.c	/^void	qq_note(t_check *cmd)$/
+re_ascii	to_char.c	/^char	*re_ascii(char *s, int option)$/
+re_moveq	here_doc_single_re.c	/^char	*re_moveq(char *s)$/
+recive_here_doc	eof_doller_recover.c	/^int	recive_here_doc(t_main *main, t_cmd *cmd, char/
+relative_absolute_path	fd_open.c	/^int	relative_absolute_path(char *path)$/
+remove_file	remove_file.c	/^void	remove_file(char *here_doc)$/
+replace_cmd	env_get.c	/^char	*replace_cmd(t_main *main, char *cmd)$/
+reset_here_doc	split_cmd.c	/^void	reset_here_doc(t_cmd *cmd)$/
+ret_daller_env	env_get.c	/^char	*ret_daller_env(char *str)$/
+ret_msg	fd_open.c	/^int	ret_msg(char *cmd, char *msg, int code)$/
+save_pwd	pwd.c	/^void	save_pwd(t_main *main, char *path)$/
+set_char	pwd.c	/^t_pwd	set_char(t_main *main, char *path)$/
+set_input	do_cmd_set.c	/^int	set_input(t_main *main, t_cmd *cmd)$/
+set_main_env	syntax_check.c	/^void	set_main_env(t_main *main, t_envp *env)$/
+set_output	do_cmd_set.c	/^int	set_output(t_cmd *cmd)$/
+sig_check	pwd.c	/^void	sig_check(t_main *main)$/
+sig_init	do_cmd.c	/^void	sig_init(int option)$/
+sigint_handler	syntax_check.c	/^void	sigint_handler(void)$/
+sigquit_handler	syntax_check.c	/^void	sigquit_handler(int signum)$/
+single_builtin	do_cmd.c	/^int	single_builtin(t_main *main, t_cmd *cmd)$/
+space_between_quotes	str_int.c	/^int	space_between_quotes(t_main *main, t_splitcmd /
+split_cmd	split_cmd.c	/^int	split_cmd(t_main *main)$/
+split_make_cmd	main.c	/^int	split_make_cmd(t_main *main)$/
+str_int	str_int.c	/^void	str_int(char *str)$/
+syntax	syntax_check.c	/^void	syntax(int *syn, char *str)$/
+to_char_nomal	for_env_func.c	/^char	*to_char_nomal(char *s)$/
+to_char_op	to_char.c	/^char	*to_char_op(char *s)$/
+triple_char	triple_strcmp.c	/^int	triple_char(char *str)$/
+triple_strcmp	triple_strcmp.c	/^int	triple_strcmp(char *str, char *set)$/
+unset_built	builtin.c	/^int	unset_built(t_main *main, char **cmd)$/
+until_daller	env_get.c	/^char	*until_daller(char *str)$/
+value_check	make_node.c	/^char	*value_check(char *str)$/

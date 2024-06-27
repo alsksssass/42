@@ -1,0 +1,19 @@
+add_hex	ft_p_option.c	/^static void	add_hex(char **send)$/
+check_option	ft_pmain.c	/^int	check_option(const char *s, t_str *list, va_li/
+free_nul	ft_malloc.c	/^int	free_nul(int num, const char *s, ...)$/
+ft_bzero	ft_malloc.c	/^void	ft_bzero(void *s, size_t n)$/
+ft_calloc	ft_malloc.c	/^void	*ft_calloc(size_t count, size_t size)$/
+ft_chardup	ft_s_c_option.c	/^char	*ft_chardup(const char c, t_str *list)$/
+ft_itoa	ft_itoa.c	/^char	*ft_itoa(long long n, t_str *list)$/
+ft_memcpy	ft_strcpy.c	/^void	*ft_memcpy(void *s1, const void *s2, size_t n/
+ft_printf	ft_pmain.c	/^int	ft_printf(const char *s, ...)$/
+ft_strdup	ft_s_c_option.c	/^char	*ft_strdup(const char *s1, t_str *list)$/
+ft_strjoin	ft_strcpy.c	/^char	*ft_strjoin(t_str *list, char *s2, int num)$/
+ft_strlcpy	ft_strcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, siz/
+ft_strlen	ft_strcpy.c	/^size_t	ft_strlen(const char *str)$/
+ft_substr	ft_malloc.c	/^char	*ft_substr(char const *s, unsigned int start,/
+get_string	ft_pmain.c	/^int	get_string(const char *s, int *size, t_str *li/
+len	ft_itoa.c	/^static long long	len(long long n)$/
+num_len	ft_strcpy.c	/^int	num_len(unsigned long long num)$/
+numchar	ft_itoa.c	/^static char	*numchar(long long size, long long n, /
+print_hex	ft_p_option.c	/^char	*print_hex(unsigned long long addr, char hex_/

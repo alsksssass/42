@@ -1,0 +1,229 @@
+Mmain	main.c	/^int main(int argc, char **argv, char **envp) $/
+add_envpnode	env.c	/^void add_envpnode(t_envp **envp, t_envp *new)$/
+add_envpnode	env.c	/^void add_envpnode(t_envp **envp, t_envp *new)$/;"	f
+add_hex	../libft/ft_p_option.c	/^static void	add_hex(char **send)$/
+add_nl	cmd.c	/^char *add_nl(char *str)$/;"	f
+add_node	cmd.c	/^void add_node(t_cmd **cmd, t_cmd *new)$/
+add_node	cmd.c	/^void add_node(t_cmd **cmd, t_cmd *new)$/;"	f
+after_make_str	main.c	/^char *after_make_str(t_main *main, char *str)$/;"	f
+ascii_env	main.c	/^char *ascii_env(char *s)$/;"	f
+cd	builtin.c	/^int cd(t_main *main, char *cmd)$/;"	f
+cd	builtin.c	/^void cd(char **cmd)$/
+cd	builtin.c	/^void cd(char **cmd)$/;"	f
+cd	builtin.c	/^void cd(t_main *main, char **cmd)$/;"	f
+check	ft_splitset.c	/^static int	check(char *str, char *charset)$/;"	f	file:
+check_already_add	env.c	/^int check_already_add(t_main *main, char *key, cha/
+check_already_add	env.c	/^int check_already_add(t_main *main, char *key, char *value)$/;"	f
+check_builtin	builtin.c	/^int check_builtin(char **cmd, t_main *main)$/
+check_builtin	builtin.c	/^int check_builtin(char **cmd, t_main *main)$/;"	f
+check_builtin	builtin.c	/^int check_builtin(t_cmd *list)$/;"	f
+check_here_doc	cmd.c	/^int check_here_doc (t_main *main, t_cmd *cmd , int now, int add)$/;"	f
+check_here_doc	cmd.c	/^void check_here_doc (t_main *main, t_cmd *cmd , in/
+check_here_doc	cmd.c	/^void check_here_doc (t_main *main, t_cmd *cmd , int now, int add)$/;"	f
+check_key_able	env.c	/^int check_key_able(char *str)$/
+check_key_able	env.c	/^int check_key_able(char *str)$/;"	f
+check_mark	cmd.c	/^int check_mark(char input)$/
+check_mark	cmd.c	/^int check_mark(char input)$/;"	f
+check_num	main.c	/^int check_num(char *num)$/
+check_num	main.c	/^int check_num(char *num)$/;"	f
+check_option	../libft/ft_pmain.c	/^int	check_option(const char *s, t_str *list, va_li/
+check_syntax	main.c	/^int check_syntax(char **cmd)$/;"	f
+checker	../libft/get_next_line.c	/^int	checker(char **save, char *buff, char **send)$/
+cmd_check	cmd.c	/^int cmd_check(char *input)$/
+cmd_check	cmd.c	/^int cmd_check(char *input)$/;"	f
+cmd_check	cmd.c	/^int cmd_check(char *input,int chapter)$/;"	f
+cmd_exit_process	do_cmd.c	/^void cmd_exit_process(t_main *main) \/\/\/\/\/\/\/\/함수길이 줄였는데 확인 부탁$/;"	f
+cmd_exit_process	do_cmd.c	/^void cmd_exit_process(t_main *main)$/;"	f
+cmd_len	cmd.c	/^int cmd_len(t_main *main)$/
+cmd_len	cmd.c	/^int cmd_len(t_main *main)$/;"	f
+cmd_path	do_cmd.c	/^char	*cmd_path(t_main *main, char *cmd)$/;"	f
+cmd_path	do_cmd.c	/^int	cmd_path(t_main *main, t_cmd *cmd)$/;"	f
+cmd_sig_handler	do_cmd.c	/^void cmd_sig_handler(int signum)$/;"	f
+cmdlist_num	do_cmd.c	/^int cmdlist_num(t_cmd *lst)$/;"	f
+countw	../libft/ft_split.c	/^static int	countw(const char *s, char c)$/
+debug_arr	main.c	/^void	debug_arr(char **arr)$/
+debug_arr	main.c	/^void	debug_arr(char **arr)$/;"	f
+default_set_cmd	cmd.c	/^void default_set_cmd(t_cmd *cmd)$/;"	f
+defult_envp	env.c	/^void defult_envp(t_main *main)$/
+defult_envp	env.c	/^void defult_envp(t_main *main)$/;"	f
+delete_env	env.c	/^int delete_env(t_main *main, char *key)$/
+delete_env	env.c	/^int delete_env(t_main *main, char *key)$/;"	f
+do_builtin	builtin.c	/^int do_builtin(t_cmd *list, t_main *main)$/;"	f
+do_cmd	do_cmd.c	/^int do_cmd(t_main *main)$/
+do_cmd	do_cmd.c	/^int do_cmd(t_main *main)$/;"	f
+duble_doller	main.c	/^void duble_doller(char *str)$/;"	f
+duble_len	main.c	/^int duble_len(char **str)$/
+duble_len	main.c	/^int duble_len(char **str)$/;"	f
+echo	builtin.c	/^int echo(char **cmd)$/;"	f
+echo	builtin.c	/^void echo(char **cmd)$/
+echo	builtin.c	/^void echo(char **cmd)$/;"	f
+envplist_num	do_cmd.c	/^int envplist_num(t_envp *lst)$/;"	f
+eof_doller	cmd.c	/^int  eof_doller(char *str)$/;"	f
+eof_doller	cmd.c	/^void eof_doller(char *str)$/;"	f
+error_cmd	cmd.c	/^int error_cmd(char *str)$/
+error_cmd	cmd.c	/^int error_cmd(char *str)$/;"	f
+error_cmd	cmd.c	/^int error_cmd(char *str, int chapter)$/;"	f
+error_code_here_doc	cmd.c	/^int  error_code_here_doc(t_cmd *cmd, int code)$/;"	f
+error_message	cmd.c	/^int error_message(char *str, int error_num)$/
+error_message	cmd.c	/^int error_message(char *str, int error_num)$/;"	f
+exit_num	main.c	/^int exit_num(char **cmd)$/;"	f
+exit_num	main.c	/^void exit_num(char **cmd)$/
+exit_num	main.c	/^void exit_num(char **cmd)$/;"	f
+export_built	builtin.c	/^int export_built(t_main *main, char **cmd)$/;"	f
+export_built	builtin.c	/^void export_built(t_main *main, char **cmd)$/
+export_built	builtin.c	/^void export_built(t_main *main, char **cmd)$/;"	f
+find_doller	cmd.c	/^void find_doller(char *str)$/;"	f
+free_cmd	main.c	/^void free_cmd(t_main *main)$/
+free_cmd	main.c	/^void free_cmd(t_main *main)$/;"	f
+free_cmdlist	main.c	/^void free_cmdlist(char **cmd)$/
+free_cmdlist	main.c	/^void free_cmdlist(char **cmd)$/;"	f
+free_nul	../libft/ft_malloc.c	/^int	free_nul(int num, const char *s, ...)$/
+free_split	main.c	/^int	free_split(char **tmp)$/
+free_split	main.c	/^int	free_split(char **tmp)$/;"	f
+freem	../libft/ft_split.c	/^static void	freem(char **send, int cwd)$/
+ft_atoi	../libft/ft_atoi.c	/^long long	ft_atoi(const char *str)$/
+ft_bzero	../libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/
+ft_calloc	../libft/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/
+ft_chardup	../libft/ft_s_c_option.c	/^char	*ft_chardup(const char c, t_str *list)$/
+ft_elcheck	../libft/get_next_line_utils.c	/^void	ft_elcheck(int readsize, char **save, char **/
+ft_isalnum	../libft/ft_isalnum.c	/^int	ft_isalnum(int str)$/
+ft_isalpha	../libft/ft_isalpha.c	/^int	ft_isalpha(int str)$/
+ft_isascii	../libft/ft_isascii.c	/^int	ft_isascii(int str)$/
+ft_isdigit	../libft/ft_isdigit.c	/^int	ft_isdigit(int str)$/
+ft_isprint	../libft/ft_isprint.c	/^int	ft_isprint(int str)$/
+ft_itoa	../libft/ft_itoa.c	/^char	*ft_itoa(int n)$/
+ft_lstadd_back	../libft/ft_lstadd_back_bonus.c	/^void	ft_lstadd_back(t_list **lst, t_list *new)$/
+ft_lstadd_front	../libft/ft_lstadd_front_bonus.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/
+ft_lstclear	../libft/ft_lstclear_bonus.c	/^void	ft_lstclear(t_list **lst, void (*del)(void *)/
+ft_lstdelone	../libft/ft_lstdelone_bonus.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void *)/
+ft_lstiter	../libft/ft_lstiter_bonus.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/
+ft_lstlast	../libft/ft_lstlast_bonus.c	/^t_list	*ft_lstlast(t_list *lst)$/
+ft_lstmap	../libft/ft_lstmap_bonus.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *),/
+ft_lstnew	../libft/ft_lstnew_bonus.c	/^t_list	*ft_lstnew(void *content)$/
+ft_lstsize	../libft/ft_lstsize_bonus.c	/^int	ft_lstsize(t_list *lst)$/
+ft_memchr	../libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/
+ft_memcmp	../libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size/
+ft_memcpy	../libft/ft_memcpy.c	/^void	*ft_memcpy(void *s1, const void *s2, size_t n/
+ft_memcpy_2	../libft/get_next_line.c	/^void	*ft_memcpy_2(void *s1, const void *s2, size_t/
+ft_memmove	../libft/ft_memmove.c	/^void	*ft_memmove(void *dest, const void *src, size/
+ft_memset	../libft/ft_memset.c	/^void	*ft_memset(void *s, int c, size_t n)$/
+ft_printf	../libft/ft_pmain.c	/^int	ft_printf(const char *s, ...)$/
+ft_putchar_fd	../libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/
+ft_putendl_fd	../libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/
+ft_putnbr_fd	../libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/
+ft_putstr_fd	../libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/
+ft_split	../libft/ft_split.c	/^char	**ft_split(const char *s, char c)$/
+ft_split_set	ft_splitset.c	/^char	**ft_split_set(char *str, char *charset)$/;"	f
+ft_stcmp	cmd.c	/^int ft_stcmp(char s1, char *s2)$/
+ft_stcmp	cmd.c	/^int ft_stcmp(char s1, char *s2)$/;"	f
+ft_stcmp	ft_splitset.c	/^static int	ft_stcmp(char *s1, char *s2)$/;"	f	file:
+ft_strchr	../libft/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/
+ft_strcmp	cmd.c	/^int ft_strcmp(char *s1, char *s2)$/
+ft_strcmp	cmd.c	/^int ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strdup	../libft/ft_strdup.c	/^char	*ft_strdup(const char *s1)$/
+ft_striteri	../libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, /
+ft_strjoin	../libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/
+ft_strjoin_2	../libft/get_next_line.c	/^char	*ft_strjoin_2(char const *s1, char const *s2)/
+ft_strlcat	../libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dest, const char *src, siz/
+ft_strlcpy	../libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, siz/
+ft_strlen	../libft/ft_strlen.c	/^size_t	ft_strlen(const char *str)$/
+ft_strlen_2	../libft/get_next_line.c	/^size_t	ft_strlen_2(const char *str, int c, int p)$/
+ft_strmapi	../libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned/
+ft_strncmp	../libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, siz/
+ft_strnstr	../libft/ft_strnstr.c	/^char	*ft_strnstr(const char *hay, const char *need/
+ft_strrchr	../libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/
+ft_strtrim	../libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/
+ft_substr	../libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start,/
+ft_substr_2	../libft/get_next_line_utils.c	/^char	*ft_substr_2(char const *s, size_t start, siz/
+ft_tolower	../libft/ft_tolower.c	/^int	ft_tolower(int str)$/
+ft_toupper	../libft/ft_toupper.c	/^int	ft_toupper(int str)$/
+get_env	main.c	/^char *get_env(t_envp *env, char *str)$/;"	f
+get_envplen	main.c	/^int get_envplen(char **arr)$/
+get_envplen	main.c	/^int get_envplen(char **arr)$/;"	f
+get_next	cmd.c	/^int get_next(t_main *main, int num)$/
+get_next	cmd.c	/^int get_next(t_main *main, int num)$/;"	f
+get_next_line	../libft/get_next_line.c	/^char	*get_next_line(int fd)$/
+get_path	do_cmd.c	/^char	*get_path(char **path, char *cmd)$/
+get_path	do_cmd.c	/^char	*get_path(char **path, char *cmd)$/;"	f
+get_string	../libft/ft_pmain.c	/^int	get_string(const char *s, int *size, t_str *li/
+here_doc	cmd.c	/^void here_doc (t_check *cmd, char mark)$/
+here_doc	cmd.c	/^void here_doc (t_check *cmd, char mark)$/;"	f
+here_doc_sigint_handler	cmd.c	/^void here_doc_sigint_handler(int signum)$/;"	f
+here_doc_sigquit_handler	cmd.c	/^void here_doc_sigquit_handler(int signum)$/;"	f
+infile_make	cmd.c	/^void infile_make(t_main *main, t_cmd *cmd, int now)$/;"	f
+is_alnum_str	main.c	/^int is_alnum_str(char *str)$/;"	f
+is_num	main.c	/^int is_num(char *str)$/
+is_num	main.c	/^int is_num(char *str)$/;"	f
+join_path	do_cmd.c	/^char *join_path(char *path, char *cmd)$/;"	f
+len	../libft/ft_itoa.c	/^static int	len(int n)$/
+long_ft_itoa	../libft/long_ft_itoa.c	/^char	*long_ft_itoa(long long n, t_str *list)$/
+main	main.c	/^int main(int argc, char **argv, char **envp) $/;"	f
+make_cmd	cmd.c	/^int  make_cmd(t_main *main)$/;"	f
+make_cmd	cmd.c	/^void make_cmd(t_main *main)$/
+make_cmd	cmd.c	/^void make_cmd(t_main *main)$/;"	f
+make_envp	env.c	/^void make_envp(t_main *main, char *arr)$/
+make_envp	env.c	/^void make_envp(t_main *main, char *arr)$/;"	f
+make_envp_arr	do_cmd.c	/^char **make_envp_arr(t_envp *lst)$/;"	f
+make_envpnode	env.c	/^t_envp *make_envpnode(char *key, char *value)$/
+make_envpnode	env.c	/^t_envp *make_envpnode(char *key, char *value)$/;"	f
+make_node	cmd.c	/^t_cmd *make_node(t_main *main, int now, int add)$/
+make_node	cmd.c	/^t_cmd *make_node(t_main *main, int now, int add)$/;"	f
+make_str	main.c	/^char *make_str(char *str, int set)$/;"	f
+make_temp	cmd.c	/^void    make_temp(t_cmd *cmd, char *str)$/
+make_temp	cmd.c	/^void    make_temp(t_cmd *cmd, char *str)$/;"	f
+make_temp	cmd.c	/^void    make_temp(t_main *main, t_cmd *cmd, char *str)$/;"	f
+make_temp_file	cmd.c	/^char *make_temp_file(int *fd)$/
+make_temp_file	cmd.c	/^char *make_temp_file(int *fd)$/;"	f
+malcheck	../libft/ft_split.c	/^static int	malcheck(char **send, const char *s, in/
+multiple_cmd	do_cmd.c	/^int multiple_cmd(t_main *main, t_cmd *cmd)$/;"	f
+num_len	../libft/ft_p_option.c	/^static int	num_len(unsigned long long num)$/
+numchar	../libft/ft_itoa.c	/^static char	*numchar(int size, int n, int umm)$/
+outfile_make	cmd.c	/^void outfile_make(t_main *main, t_cmd *cmd, int now, int append)$/;"	f
+pf_ft_strdup	../libft/ft_s_c_option.c	/^char	*pf_ft_strdup(const char *s1, t_str *list)$/
+pf_ft_strjoin	../libft/ft_malloc.c	/^char	*pf_ft_strjoin(t_str *list, char *s2, int num/
+print_cmd	cmd.c	/^void print_cmd(t_main *main)$/
+print_cmd	cmd.c	/^void print_cmd(t_main *main)$/;"	f
+print_envp	env.c	/^void print_envp(t_main *main, int env)$/
+print_envp	env.c	/^void print_envp(t_main *main, int env)$/;"	f
+print_error	do_cmd.c	/^void	print_error(char *cmd, char *message)$/;"	f
+print_hex	../libft/ft_p_option.c	/^char	*print_hex(unsigned long long addr, char hex_/
+put_in	ft_splitset.c	/^static void	put_in(char **send, char *str, int num, int *tag)$/;"	f	file:
+pwd	builtin.c	/^int pwd(t_main *main)$/;"	f
+pwd	builtin.c	/^void pwd()$/
+pwd	builtin.c	/^void pwd()$/;"	f
+q_mark	cmd.c	/^int q_mark (t_check *cmd, char *mark)$/
+q_mark	cmd.c	/^int q_mark (t_check *cmd, char *mark)$/;"	f
+q_note	cmd.c	/^void q_note(t_check *cmd)$/;"	f
+q_swap	cmd.c	/^void q_swap(t_check *cmd, char *mark, int i)$/;"	f
+qq_note	cmd.c	/^void qq_note(t_check *cmd)$/;"	f
+re_ascii	cmd.c	/^char *re_ascii(char *s)$/;"	f
+re_ascii	cmd.c	/^void re_ascii(char **s)$/;"	f
+recive_here_doc	cmd.c	/^int recive_here_doc(t_main *main, t_cmd *cmd, int  now)$/;"	f
+recive_here_doc	cmd.c	/^void recive_here_doc(t_main *main, t_cmd *cmd, int  now)$/;"	f
+recive_here_doc	cmd.c	/^void recive_here_doc(t_main *main, t_cmd *cmd, int/
+replace_cmd	main.c	/^char *replace_cmd(t_main *main, char *cmd)$/;"	f
+reset_here_doc	cmd.c	/^void reset_here_doc(t_cmd *cmd)$/
+reset_here_doc	cmd.c	/^void reset_here_doc(t_cmd *cmd)$/;"	f
+set_input	do_cmd.c	/^int set_input(t_cmd *cmd)$/;"	f
+set_input	do_cmd.c	/^int set_input(t_main *main, t_cmd *cmd)$/;"	f
+set_output	do_cmd.c	/^int set_output(t_cmd *cmd)$/;"	f
+sig_init	do_cmd.c	/^void sig_init(int option)$/;"	f
+sigint_handler	main.c	/^void sigint_handler (int signum)$/;"	f
+sigquit_handler	main.c	/^void sigquit_handler(int signum) {$/;"	f
+single_builtin	do_cmd.c	/^int single_builtin(t_main *main, t_cmd *cmd)$/;"	f
+split_cmd	cmd.c	/^int split_cmd(t_main *main)$/
+split_cmd	cmd.c	/^int split_cmd(t_main *main)$/;"	f
+str_int	cmd.c	/^void str_int(char *str)$/
+str_int	cmd.c	/^void str_int(char *str)$/;"	f
+to_char	cmd.c	/^char *to_char(char *s)$/;"	f
+trans_lst	../libft/ft_lstmap_bonus.c	/^static int	trans_lst(t_list *lst, t_list **first, /
+trimcmp	../libft/ft_strtrim.c	/^static int	trimcmp(char str, char const *c)$/
+triple_char	cmd.c	/^int triple_char(char *str)$/
+triple_char	cmd.c	/^int triple_char(char *str)$/;"	f
+triple_strcmp	cmd.c	/^int triple_strcmp(char *str, char *set)$/
+triple_strcmp	cmd.c	/^int triple_strcmp(char *str, char *set)$/;"	f
+unset_built	builtin.c	/^int unset_built(t_main *main, char **cmd)$/;"	f
+unset_built	builtin.c	/^void unset_built(t_main *main, char **cmd)$/
+unset_built	builtin.c	/^void unset_built(t_main *main, char **cmd)$/;"	f
+value_check	cmd.c	/^char *value_check(char *str)$/
+value_check	cmd.c	/^char *value_check(char *str)$/;"	f
